@@ -19,14 +19,14 @@ shedButton.addEventListener('click', () => {
     // get a random item to call the 'correct spot'
     const correctSpot = getRandomHidingSpot();
     // call the handleGuess function with the correct parameters (the user's guess and the "correct" hiding place) to do DOM work
-    handleGuess('tree', correctSpot);
+    handleGuess('shed', correctSpot);
 });
 
 treeButton.addEventListener('click', () => {
     // get a random item to call the 'correct spot'
     const correctSpot = getRandomHidingSpot();
     // call the handleGuess function with the correct parameters (the user's guess and the "correct" hiding place) to do DOM work
-    handleGuess('shed', correctSpot);
+    handleGuess('tree', correctSpot);
 });
 
 boulderButton.addEventListener('click', () => {
